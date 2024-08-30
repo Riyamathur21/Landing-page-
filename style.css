@@ -1,0 +1,300 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 5;
+    background-image: url("c:\Users\Hp\OneDrive\ドキュメント\color purplr.jpg");
+    background-color: #5f0ed1;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+body {
+    background-image: url("c:\Users\Hp\OneDrive\ドキュメント\color purplr.jpg");
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #5f0ed1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.logo img {
+    width: 250px;
+    border-image: repeat;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5;
+    padding: 5;
+    display: inline-block;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+.join-us button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: right;
+    transition: background-color 0.3s;
+}
+
+.join-us button:hover {
+    background-color: #FFC600;
+}
+
+.hero {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.buttons button {
+    background-color: #FFC600;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.hero img {
+    width: 40%;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.stats {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #FFC600;
+}
+
+.stats .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats .stat {
+    text-align: center;
+}
+
+.stats .stat img {
+    width: 48px;
+    margin-bottom: 10px;
+}
+
+.stats .stat h3 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.stats .stat p {
+    font-size: 18px;
+}
+
+.services {
+    padding: 50px 0;
+    background-color: #FFFFFF;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services .service {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #F48FB1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.services .service img {
+    width: 100px; 
+    margin-bottom: 20px;
+}
+
+.services .service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services .service p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #362183;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer li img {
+    margin-right: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #000000;
+}
+
+.footer .social-media {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.footer .social-media li {
+    margin: 0 10px;
+}
+
+.footer .social-media img {
+    width: 30px;
+}
+
+.footer .gallery ul {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.footer .gallery li {
+    margin: 0 10px;
+}
+
+.footer .gallery img {
+    width: 80px;
+}
+
+.footer .newsletter form {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px;
+}
+
+.footer .newsletter input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.footer .newsletter button {
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer .newsletter button img {
+    width: 20px;
+}
+
+.copyright {
+    padding: 20px 10;
+    text-align: right;
+}
+
+.copyright ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.copyright li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.copyright a:hover {
+    color: #000000;
+}
